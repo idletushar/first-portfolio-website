@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar || Contact Me</title>
+    <link rel="stylesheet" href="styleContact.css">
+    <link rel="icon" href="apple-touch-icon.png">
+
+</head>
+<body>
+        <h1>Contact Me</h1>
+        <h2>Let's Work together</h2>
+        <p>However, if you have any other requests or questions, don't hesitate to contact me...</p>
+        
+        <form id="form">
+        <div class="field">
+        <input type="text" name="from_name" id="from_name" placeholder="YOUR NAME" required>
+        </div>
+        <div class="field">
+        <input type="email" name="email" id="email" placeholder="YOUR EMAIL" required>
+        </div>
+        <div class="field">
+        <textarea type="text" name="message" id="message" placeholder="YOUR MESSAGE" required></textarea>
+        </div>
+
+        <input type="submit" id="button" value="Send Email" >
+        </form>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <script type="text/javascript">
+        emailjs.init('Esb1BR1QjqOvkTldV')
+        </script>
+
+        <script src="contact.js"></script>
+
+</body>
+</html>
